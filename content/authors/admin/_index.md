@@ -44,7 +44,7 @@ social:
   link: https://twitter.com/rchakri25
 - icon: github
   icon_pack: fab
-  link: https://github.com/Chakri18
+  link: https://github.com/crangi
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
