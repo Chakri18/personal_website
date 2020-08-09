@@ -18,11 +18,11 @@ organizations:
   url: "https://www.iiserb.ac.in/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Computational Condensed Matter Physics and developing scientific codes. 
+bio: My research interests include Computational Condensed Matter Physics and developing scientific codes.
 
 interests:
-- Theoretical Condensed Matter Physics
-- Computational Physics
+- Computational Condensed Matter Physics
+- Quantum Information
 - Deep learning
 
 education:
@@ -60,8 +60,8 @@ user_groups:
 - Visitors
 ---
 
-Hello! A friendly and proactive individual with a drive to learn and explore fascinations in Science, that’s me. 
+Hello! A friendly and proactive individual with a drive to learn and explore fascinations in Science, that’s me.
 
-My name is Chakradhar and I hail from Bangalore in South India. I'm a Physics Undergraduate at Indian Institute of Science Education and Research, Bhopal. Growing up in a city close to nature and Science has sparked an everlasting amusement towards Science and its community. 
+My name is Chakradhar and I hail from Bangalore in South India. I'm a Physics Undergraduate at Indian Institute of Science Education and Research, Bhopal. Growing up in a city close to nature and Science has sparked an everlasting amusement towards Science and its community.
 
-I specialize in Condensed Matter Physics and spend my time simulating Physics on Computers. Also, I keenly pursue Deep Learning as a hobby supplemented with coding, playing Cricket and learning Sanksrit. I am fueled by the ambition to promote Science Education and Open Science. 
+I specialize in Condensed Matter Physics and spend my time simulating Physics on Computers. Also, I keenly pursue Deep Learning as a hobby supplemented with coding, playing Cricket and learning Sanksrit. I am fueled by the ambition to promote Science Education and Open Science.
