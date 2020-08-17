@@ -16,7 +16,7 @@ Below you can find notes for various topics in Quantum Mechanics and Computation
 
 - [Quantum Adiabatic Theorem](Presentation_Quantum_Adiabatic_theorem.pdf)
 - [Molecular Dynamics with Electronic transitions](Presentation_Quantum_Adiabatic_theorem.pdf)
-- [Hand written notes on fermion to qubit mappings](fermion_qubit_maps.pdf)
+- [Hand written notes on fermion to qubit mappings](fermion_qubit_maps.pdf)(Proceed with caution! Messed up handwriting alert!)
 
 Ongoing webinar on Trajectory Surface Hopping at AITG, IISER Bhopal:
 - [Slides - Day 1](Webinar_on_TSH_day1.pdf)
