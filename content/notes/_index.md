@@ -20,3 +20,6 @@ Below you can find notes for various topics in Quantum Mechanics and Computation
 
 Ongoing webinar on Trajectory Surface Hopping at AITG, IISER Bhopal:
 - [Slides - Day 1](Webinar_on_TSH_day1.pdf)
+
+Solid State Physics notes: 
+- [some]({{<relref "/notes_pages/ssphysics/heat_capacity.md" >}})
