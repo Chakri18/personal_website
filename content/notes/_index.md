@@ -22,4 +22,4 @@ Ongoing webinar on Trajectory Surface Hopping at AITG, IISER Bhopal:
 - [Slides - Day 1](Webinar_on_TSH_day1.pdf)
 
 Solid State Physics notes: 
-- [some]({{<relref "/notes_pages/ssphysics/heat_capacity.md" >}})
+- [Heat capacity of Solids]({{<relref "/notes_pages/ssphysics/heat_capacity.md" >}})
