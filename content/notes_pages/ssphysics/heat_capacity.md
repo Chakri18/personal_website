@@ -43,7 +43,11 @@ $$Z_1 = \frac{1}{h^3}\int\int e^{-\beta(\frac{\mathbf{p}^2}{2m} + \frac{1}{2}m\o
 
 We can further separate the 3D integral into a product of three 1D integrals in both momentum and position coordinates.
 
-$$Z_1 =  \frac{1}{h^3} \int_{-\infty}^{\infty} exp\{\frac{-\beta{p_x}^2}{2m}\} dp_x \int_{-\infty}^{\infty} exp\{\frac{-\beta{p_y}^2}{2m}\} dp_y \int_{-\infty}^{\infty} exp\{\frac{-\beta{p_z}^2}{2m}\} dp_z\\ \text{x} \int_{-\infty}^{\infty} exp\{\frac{-\beta m\omega^2q_x^2}{2}\} dq_x \int_{-\infty}^{\infty} exp\{\frac{-\beta m\omega^2q_y^2}{2}\} dq_y \int_{-\infty}^{\infty} exp\{\frac{-\beta m\omega^2q_z^2}{2}\} dq_z$$
+$$
+\begin{align}
+Z_1 =  \frac{1}{h^3} \int_{-\infty}^{\infty} exp\{\frac{-\beta{p_x}^2}{2m}\} dp_x \int_{-\infty}^{\infty} exp\{\frac{-\beta{p_y}^2}{2m}\} dp_y \int_{-\infty}^{\infty} exp\{\frac{-\beta{p_z}^2}{2m}\} dp_z \\\\\\ \text{x} \int_{-\infty}^{\infty} exp\{\frac{-\beta m\omega^2q_x^2}{2}\} dq_x \int_{-\infty}^{\infty} exp\{\frac{-\beta m\omega^2q_y^2}{2}\} dq_y \int_{-\infty}^{\infty} exp\{\frac{-\beta m\omega^2q_z^2}{2}\} dq_z
+\end{align}
+$$
 
 $$= \frac{1}{h^3} \left[\int_{-\infty}^{\infty} exp\{\frac{-\beta{p_x}^2}{2m}\} dp_x\right]^3 \left[\int_{-\infty}^{\infty} exp\{\frac{-\beta m\omega^2q_x^2}{2}\} dq_x\right]^3$$
 Using the 1D Gaussian integrals above, we get
@@ -68,9 +72,13 @@ Einstein followed a similar approach to that of Boltzmann except, he used quanti
 $$\epsilon_n = \hbar \omega(n+3/2)$$
 
 where $n = n_x+n_y+n_z$. The partition function in this case in given by:
-$$Z_1 = \sum_{n_x,n_y,n_z\geq0}e^{-\beta \epsilon_n} = \sum_{n_x,n_y,n_z\geq0}e^{-\beta  \hbar \omega(n_x+n_y+n_z+3/2)}\\
-= e^{-3\beta \hbar\omega/2}\sum_{n_x\geq0}e^{-\beta\hbar\omega n_x}
-\sum_{n_y\geq0}e^{-\beta\hbar\omega n_y} \sum_{n_z\geq0}e^{-\beta\hbar\omega n_z}$$
+$$
+\begin{align}
+Z_1 &= \sum_{n_x,n_y,n_z\geq0}e^{-\beta \epsilon_n} = \sum_{n_x,n_y,n_z\geq0}e^{-\beta  \hbar \omega(n_x+n_y+n_z+3/2)} \\\\\\
+&= e^{-3\beta \hbar\omega/2}\sum_{n_x\geq0}e^{-\beta\hbar\omega n_x}
+\sum_{n_y\geq0}e^{-\beta\hbar\omega n_y} \sum_{n_z\geq0}e^{-\beta\hbar\omega n_z}
+\end{align}
+$$
 
 Each sum represents a geometric series and thus reduces to
 $$ Z_1 = \left(\frac{e^{-\beta \hbar\omega/2}}{1-e^{\beta \hbar\omega}}\right) \left(\frac{e^{-\beta \hbar\omega/2}}{1-e^{\beta \hbar\omega}}\right)\left(\frac{e^{-\beta \hbar\omega/2}}{1-e^{\beta \hbar\omega}}\right) = \left[\frac{1}{2sinh(\beta\hbar\omega/2)}\right]^3$$
