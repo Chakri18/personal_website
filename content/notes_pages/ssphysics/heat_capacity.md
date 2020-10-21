@@ -93,3 +93,35 @@ where $n_B(x) = \frac{1}{e^{x}-1}$ is the Bose occupation factor. The quantity $
 
 The heat capacity per atom can be similarly obtained as above:
 $$C_v = \frac{\partial}{\partial T} \frac{E}{N} = 3k_B(\beta\hbar\omega)^2\frac{e^{\beta\hbar\omega}}{(e^{\beta\hbar\omega}-1)^2}$$
+
+![](/notes_pages/ssphysics/einsteins_energyplusnb.png)
+
+> **Obervation:** The plot on the left tells us that lower energy modes have higher occupation than the higher energy modes. The plot on the right gives us the energy as a function of time. It shows us that as $K_BT\ll\hbar\omega$, the heat capacity, which is the slope, tends to zero.
+
+This can be further verified by explicitly working out the heat capacity per atom:
+$$C_v = \frac{\partial}{\partial T} \frac{E}{N} = 3k_B(\beta\hbar\omega)^2\frac{e^{\beta\hbar\omega}}{(e^{\beta\hbar\omega}-1)^2}$$
+
+The expression above might not be intuitive at first sight. We can check whether we obtain Dulong-Petit law in the high temperature limit: $K_BT \gg \hbar \omega$
+$$
+\frac{\hbar\omega}{K_BT} \ll 1 \implies \text{exp}(\frac{\hbar\omega}{K_BT}) \approx 1 \\  \implies (e^{\beta\hbar\omega}-1) \approx \beta\hbar\omega \quad(\text{using Taylor expansion of exponential})
+$$
+
+Using these approximations, the high-temperature asymptotic behaviour of heat capacity reduces to $C = 3K_B$. We have managed to recover Dulong-Petit Law!
+
+Similarly, we can obtain the low temperature limit: $K_BT \ll \hbar \omega$
+$$
+\frac{\hbar\omega}{K_BT} \gg 1 \implies \text{exp}(\frac{\hbar\omega}{K_BT}) \gg 1 \\
+\implies (e^{\beta\hbar\omega}-1) \approx \text{exp}(\frac{\hbar\omega}{K_BT})
+$$
+Using these approximations, the low-temperature asymptotic behaviour of heat capacity reduces to
+$$
+C_v = 3k_B(\beta\hbar\omega)^2e^{-\beta\hbar\omega}
+$$
+
+We see that heat capacity drops exponentially as we lower the temperature. All our findings, can be captured by plotting heat capacity as a function of temperature:
+
+![](/notes_pages/ssphysics/heat_capacity.png)
+
+This exponential drop can be understood by looking at the energy spectrum of each atom. As we lower the temperature below the characteristic energy, i.e., $k_BT < \hbar\omega$, all atoms start occupying the ground state or low lying states according Bose distribution. Since the spectrum is discrete, the thermal energy is not enough to keep them in higher states and energy drop is higher(exponential).
+
+Thus, the Einstein's model qualitatively captures the low temperature behaviour of heat capacity in solids. Let us look at how it performs quantitatively and compares with a experimental data.
